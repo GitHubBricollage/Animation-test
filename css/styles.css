@@ -1,0 +1,126 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+  .bg { background-color: #000000;
+background-image: linear-gradient(43deg, #0d1552 0%, #22224c 46%, #000 100%);
+}
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-size: 5em;
+      letter-spacing: 15px;
+      font-family: 'Barlow Condensed',sans-serif;
+    }
+    span:hover {
+      cursor: pointer;
+      color: blue;
+    }
+    span:nth-child(1) {
+      animation: tee 5s infinite;
+    }
+    @keyframes tee {
+      50% {
+        transform: skewX(20deg);
+        color: #35d3d2;
+        font-size: 2em;
+      }
+      100% {
+        text-shadow: 0 0 20px #35d3d2;
+      }
+    }
+    span:nth-child(2) {
+      animation: arr 5s infinite;
+    }
+    @keyframes arr {
+      50% {
+        color: #35d3d2;
+        transform: rotate(360deg) scale(1.7);
+        font-size: 1em;
+      }
+      100% {
+        text-shadow: 0 0 20px #35d3d2;
+      }
+    }
+    span:nth-child(3) {
+      animation: e 5s infinite;
+    }
+    @keyframes e {
+      50% {
+        transform: scaleY(1.5);
+        color: #0063af;
+        font-size: 1.2em;
+      }
+      100% {
+        text-shadow: 0 0 15px #0063af;
+      }
+    }
+    span:nth-child(4) {
+      animation: cee 5s infinite;
+    }
+    @keyframes cee {
+      50% {
+        transform: rotate(360deg) scale(1.7);
+        color:#0063af;
+        font-size: 1em;
+      }
+      100% {
+        text-shadow: 0 0 7px #0063af;
+      }
+    }
+    span:nth-child(5) {
+      animation: i 5s infinite;
+    }
+    @keyframes i {
+      50% {
+        transform: rotateX(360deg);
+        color: #0063af;
+        font-size: 1.5em;
+      }
+      100% {
+        text-shadow: 0 0 18px #0063af;
+      }
+    }
+    span:nth-child(6) {
+      animation: a 5s infinite;
+    }
+    @keyframes a {
+      50% {
+        transform: rotateY(360deg);
+        color: #0063af;
+        font-size: 1.7em;
+      }
+      100% {
+        text-shadow: 0 0 18px #0063af;
+      }
+    }
+    span:nth-child(7) {
+      animation: b 5s infinite;
+    }
+    @keyframes b {
+      50% {
+        transform: rotateY(180deg);
+        color: #0063af;
+        font-size: 1.7em;
+      }
+      100% {
+        text-shadow: 0 0 18px #0063af;
+      }
+    }
+    span:nth-child(8) {
+      animation: v 5s infinite;
+    }
+    @keyframes v {
+      50% {
+        transform: rotateY(720deg);
+        color: #0063af;
+        font-size: 1.7em;
+      }
+      100% {
+        text-shadow: 0 0 18px #0063af;
+      }
+    }
